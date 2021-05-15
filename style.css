@@ -1,0 +1,109 @@
+.container .box h1{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+    background-image: url("hb-2.jpg");
+    margin-top: 0px;
+    height: 722px;
+    
+}
+.box{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    animation-name: jay2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alterbate;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes jay2{
+    0%{
+       background-color: transparent;
+       top: 0px;
+       left: 0px;
+    }
+    25%{
+        background-color: transparent;
+        top: 525px;
+        left: 0px;
+    }
+    50%{
+        background-color: transparent;
+        top: 525px;
+        left: 1250px;
+    }
+    75%{
+        background-color: transparent;
+        top: 0px;
+        left: 1250px;
+    }
+    100%{
+        background-color: transparent;
+        top: 0px;
+        left: 0px;
+    }
+}
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: 2px solid black;
+    box-shadow:5px 5px gray;
+    border-radius: 10px;
+    margin: 30px 0px 0px 720px;
+}
+.box-1:hover{
+    background: url(image//cake-1.jpg) no-repeat center center/cover;
+}
+.box-2{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: 2px solid black;
+    box-shadow:5px 5px gray;
+    border-radius: 10px;
+    margin: -318px 0px 0px 290px;
+}
+.box-2:hover{
+    background: url(image//cake-2.jpg) no-repeat center center/cover;
+}
+.box-3{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: 2px solid black;
+    box-shadow:5px 5px gray;
+    border-radius: 10px;
+    margin: -20px 0px 0px 347px;
+}
+.box-3:hover{
+    background: url(image//cake-3.jpg) no-repeat center center/cover;
+}
+.box-4{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: 2px solid black;
+    box-shadow:5px 5px gray;
+    border-radius: 10px;
+    margin: -325px 0px 0px 530px;
+}
+.box-4:hover{
+    background: url(image//cake-4.jpg) no-repeat center center/cover;
+}
+.box-5{
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
+    border: 2px solid black;
+    box-shadow:5px 5px gray;
+    border-radius: 10px;
+    margin: -239px 0px 0px 910px;
+}
+.box-5:hover{
+    background: url(image//cake-5.jpg) no-repeat center center/cover;
+}
